@@ -58,30 +58,3 @@ class App(ctk.CTk):
 if __name__ == "__main__":
     app = App()
     app.mainloop()
-
-        
-
-# titre = CTkLabel(interface, text="Détection de spam", fg_color="red")
-# titre.grid()
-# instruction = CTkLabel(interface, text='Veuillez entrer une phrase')
-# instruction.grid()
-# message = CTkEntry(interface).grid()
-
-
-# def reset_message():
-#     mess = " "
-#     return mess.config(text=mess)
-
-# button = CTkButton(interface, text='Annuler', command=reset_message).grid()
-# resultat = CTkLabel(interface, text='').grid()
-
-# def predict_spam():
-#     message_transformed = vectorizer.transform([message])
-#     prediction = model.predict(message_transformed)
-#     # resultat.configure(text=prediction)
-#     print(str(prediction))
-
-
-
-# boutton = CTkButton(interface, text='Tester', command = predict_spam).grid()
-# interface.mainloop()

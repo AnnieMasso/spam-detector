@@ -1,3 +1,5 @@
+from importer import *;
+
 # Convertir les labels en 0 (ham) et 1 (spam)
 df['label'] = df['label'].map({'ham': 0, 'spam': 1})
 
